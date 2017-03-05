@@ -3,10 +3,10 @@
           package="com.example.pirat.lrry">
     <application>
         <activity
-            android:name=".Activity.MainActivity"
-            android:theme="@style/AppTheme"/>
+            android:name=".Activity.Disclaimer"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
-            android:name=".Activity.Main1Activity"
+            android:name=".Activity.SplashActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -14,8 +14,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.SplashActivity"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>

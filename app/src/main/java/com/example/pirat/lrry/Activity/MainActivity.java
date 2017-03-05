@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity{
     {
 
         Log.d("Co","ewfcefewfcewf");
-     //   trans.remove(fg);
+     //trans.remove(fg);
         //trans.replace(R.id.fragment_container,fg2,"yashyt");
         //trans.commit();
 
