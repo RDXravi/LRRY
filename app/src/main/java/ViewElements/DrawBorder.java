@@ -31,6 +31,7 @@ public class DrawBorder extends View {
 
 
 
+
 /*        canvas.drawLine(ScreenResolution.getWidth_5(),0, ScreenResolution.getWidth_5(),ScreenResolution.getHeight(),pp);
         canvas.drawLine(ScreenResolution.getWidth_5()+3,0, ScreenResolution.getWidth_5()+3,ScreenResolution.getHeight(),pp);
         canvas.drawLine(0,ScreenResolution.getHeight_5(), ScreenResolution.getWidth(),ScreenResolution.getHeight_5(),pp);
