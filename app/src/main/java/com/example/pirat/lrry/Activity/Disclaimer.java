@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.VideoView;
 
 import com.example.pirat.lrry.R;
 
@@ -31,9 +33,12 @@ public class Disclaimer extends AppCompatActivity {
         DrawBorder db = new DrawBorder(this);
         ActionBArText action_text = new ActionBArText(this);
         BookPresButton Book_button = new BookPresButton(this);
+
+       // Book_button.setLayoutParams(new RelativeLayout.LayoutParams(,ScreenResolution.percent_of_height(50)));
         //Book_button.setLayoutParams(new FrameLayout.LayoutParams());
         Book_button.setFocusableInTouchMode(true);
-        Book_button.setOnClickListener(new Listener(this));
+        //Book_button.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
+        //Book_button.setOnClickListener(new Listener(this));
 
         l.addView(db);
         l.addView(action_text);
